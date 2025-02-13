@@ -10,7 +10,7 @@
     "SESSION_ID": {
       "description": "Put the session-id here.",
       "required": true,
-      "value": ""
+      "value": "{"noiseKey":{"private":{"type":"Buffer","data":"mK71J8hveiHOcLGeeaBZUVvJVRCgquJM6tJLsKWr21g="},"public":{"type":"Buffer","data":"9wdfHzuRtjql73PBGTiIlm8Ur9aa5bqjRuLJcxNGQBU="}},"pairingEphemeralKeyPair":{"private":{"type":"Buffer","data":"sFsMz0O5z9pB90GFDBERYhYbRKwdeKu7q9fR7KpyYFQ="},"public":{"type":"Buffer","data":"qDaA06EAhhehiHrZyWA3JN1Zc4uuDAkKFKrSW6Nd7xk="}},"signedIdentityKey":{"private":{"type":"Buffer","data":"aF9VNT3HZZE9aOuZty284lweB1A0eIwP1Q2sorxDL30="},"public":{"type":"Buffer","data":"Bp1KvrEHN+KBDJrBKRC4IUpCEfHzL/2/smo/ybtVVkU="}},"signedPreKey":{"keyPair":{"private":{"type":"Buffer","data":"+ADpk30YMCvmXFXkTzRp4ujSzMk8pxMe4x+5wYy6Y1Y="},"public":{"type":"Buffer","data":"pTolLCLXg696YxgZDhtbhUuK/AG2S4FfUAyRrIkLAVw="}},"signature":{"type":"Buffer","data":"5HQ7iyUDoMMMY5BtmC7bI9nUNpnHGxSIpRvmH4msw7xHpBzX7sgsIrV8fS2i1HII8G26IDipoIb0FjyKfuHsAA=="},"keyId":1},"registrationId":58,"advSecretKey":"lm95+bu7MRW/U1IgGRu8jEn05fXbC9bK58IRL/oC/jA=","processedHistoryMessages":[],"nextPreKeyId":31,"firstUnuploadedPreKeyId":31,"accountSyncCounter":0,"accountSettings":{"unarchiveChats":false},"deviceId":"ckNb5ML6TKG1vl3Pea0l2g","phoneId":"dd15717d-f95d-4401-9148-471404801568","identityId":{"type":"Buffer","data":"AVap3jwP2L090YudFF99bTbo/FY="},"registered":true,"backupToken":{"type":"Buffer","data":"FMmsXkZPFuLM9LXDgvpu5YgYSA4="},"registration":{},"pairingCode":"DK42ZKWN","me":{"id":"237692548624:2@s.whatsapp.net","name":"La Mélodie"},"account":{"details":"CKeH2bEEEM+gtL0GGAEgACgA","accountSignatureKey":"IsUVkWMzvM1Aur0E0SHkMx4sLVpRcvZQ9HXiQX78R0Y=","accountSignature":"i6vXAOg8eHecTwd9D6SZUtrPor7nwcpzN5nKCUxn1JsGt7EscOYrj2AD7zM4s9Y8V7uHDV5wVzrAsQ60AViwCg==","deviceSignature":"xItbLuZI5tR+AnigB3g+LYvS6im3gtjQPeXRJPZO2G2gCLMUrtVjFQIZIa0O0kF2rUEQWnsWULk8lZWem4s7CA=="},"signalIdentities":[{"identifier":{"name":"237692548624:2@s.whatsapp.net","deviceId":0},"identifierKey":{"type":"Buffer","data":"BSLFFZFjM7zNQLq9BNEh5DMeLC1aUXL2UPR14kF+/EdG"}}],"platform":"smba","lastAccountSyncTimestamp":1739395165,"myAppStateKeyId":"AAAAAAcH"}"
     },  
     
     "MENU_IMG": {
@@ -40,7 +40,7 @@
     "MODE": {
       "description": "select your bot work type public-private-inbox-group.",
       "required": false,
-      "value": "public"
+      "value": "private"
       
     },
     
